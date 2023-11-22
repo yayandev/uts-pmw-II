@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yayan Faturrohman - Galery</title>
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/galery.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Yayan Faturrohman</h1>
+    </header>
+
+    <main>
+      <div class="slideshow">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="assets/images/slide1.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="assets/images/slide2.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="assets/images/slide3.jpg" style="width: 100%" />
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="galery.html">Galery</a>
+        <div class="dropdown">
+          <a class="dropbtn" href="#">Blog</a>
+          <div class="dropdown-content">
+            <a href="blog-html.html">HTML</a>
+            <a href="blog-css.html">CSS</a>
+          </div>
+        </div>
+      </nav>
+      <h1 class="title">Galery</h1>
+      <div class="galery">
+        <div class="galery-one">
+          <img src="assets/images/galery1.jpeg" alt="" />
+          <img src="assets/images/galery2.jpg" alt="" />
+        </div>
+        <div class="galery-two">
+          <img src="assets/images/galery3.jpg" alt="" />
+        </div>
+        <div class="galery-three">
+          <img src="assets/images/galery4.jpg" alt="" />
+          <img src="assets/images/galery5.jpg" alt="" />
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="foot1">
+        <div class="menu">
+          <h3>Menu</h3>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="galery.html">Galery</a>
+            </li>
+            <li>
+              <a href="blog-html.html">HTML</a>
+            </li>
+            <li>
+              <a href="blog-css.html">CSS</a>
+            </li>
+          </ul>
+        </div>
+        <div class="kontak">
+          <h3>Contact</h3>
+          <ul>
+            <li>
+              <a href="">+6283 8736 14764</a>
+            </li>
+            <li>
+              <a href="">yayanfathurohman20@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- <p>Copyright &copy; 2023 yayan faturrohman</p> -->
+    </footer>
+
+    <script src="assets/js/slideshow.js"></script>
+  </body>
+</html>

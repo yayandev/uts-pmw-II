@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yayan Faturrohman - Home</title>
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/home.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Yayan Faturrohman</h1>
+    </header>
+
+    <main>
+      <div class="slideshow">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="assets/images/slide1.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="assets/images/slide2.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="assets/images/slide3.jpg" style="width: 100%" />
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="galery.html">Galery</a>
+        <div class="dropdown">
+          <a class="dropbtn" href="#">Blog</a>
+          <div class="dropdown-content">
+            <a href="blog-html.html">HTML</a>
+            <a href="blog-css.html">CSS</a>
+          </div>
+        </div>
+      </nav>
+      <div class="about">
+        <div>
+          <img src="assets/images/me-nobg.png" width="300" alt="" />
+        </div>
+        <div>
+          <h2>About me</h2>
+          <p>
+            Hello! Introducing, my name is Yayan Faturrohman, a Full Stack Web
+            Developer. I love to combine creativity with technical expertise to
+            create innovative and engaging web solutions. With the experience
+            and knowledge that I have, I am ready to contribute to developing
+            interesting projects on the web world. Thank you for the
+            opportunity!
+          </p>
+        </div>
+        <div>
+          <img src="assets/images/me-nobg.png" width="300" alt="" />
+        </div>
+      </div>
+      <div class="education">
+        <h1>Education</h1>
+        <div class="card-container">
+          <div class="card">
+            <img src="assets/images/sdn-nobg.png" alt="" width="120" />
+          </div>
+          <div class="card">
+            <img src="assets/images/mts.png" width="120" alt="" />
+          </div>
+          <div class="card">
+            <img src="assets/images/ma-nobg.png" alt="" width="120" />
+          </div>
+          <div class="card">
+            <img src="assets/images/logo-upg.png" alt="" width="120" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="foot1">
+        <div class="menu">
+          <h3>Menu</h3>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="galery.html">Galery</a>
+            </li>
+            <li>
+              <a href="blog-html.html">HTML</a>
+            </li>
+            <li>
+              <a href="blog-css.html">CSS</a>
+            </li>
+          </ul>
+        </div>
+        <div class="kontak">
+          <h3>Contact</h3>
+          <ul>
+            <li>
+              <a href="">+6283 8736 14764</a>
+            </li>
+            <li>
+              <a href="">yayanfathurohman20@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- <p>Copyright &copy; 2023 yayan faturrohman</p> -->
+    </footer>
+
+    <script src="assets/js/slideshow.js"></script>
+  </body>
+</html>
